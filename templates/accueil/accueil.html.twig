@@ -1,0 +1,1303 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ parent() ~ ' ' ~ 'Accueil' }}{% endblock %}
+
+{% block body %}
+<!-- home slider start -->
+<section id="up" class="pos-rel section-bg-dark-1 js-home-slider fullscreen-slider">
+    <!-- swiper-wrapper start -->
+    <div class="swiper-wrapper">
+        <!-- swiper-slide start -->
+        <div class="swiper-slide">
+            <!-- slide-bg -->
+            <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url({{ asset('themes/front/assets/images/backgrounds/1.jpeg') }})"></div>
+            <!-- bg-overlay -->
+            <div class="bg-overlay-black"></div>
+
+            <!-- content start -->
+            <div class="flex-min-height-100vh pos-rel" data-swiper-parallax-x="30%">
+                <div class="container small padding-top-bottom-120">
+                    <h2 class="headline-xl">
+                        <span class="hidden-box d-block">
+                            <span class="anim-slide tr-delay-02">Nous générons</span>
+                        </span>
+                        <span class="hidden-box d-block">
+                            <span class="anim-slide tr-delay-03">Créative &</span>
+                        </span>
+                        <span class="hidden-box d-block">
+                            <span class="anim-slide tr-delay-04">Idées Novation</span>
+                        </span>
+                    </h2>
+                    <div class="margin-top-30 anim-fade tr-delay-08">
+                        <a href="#contact" class="border-btn js-pointer-large js-smooth-scroll ">
+                            <span class="border-btn__inner">Savoir plus</span>
+                            <span class="border-btn__lines-1"></span>
+                            <span class="border-btn__lines-2"></span>
+                        </a>
+                    </div>
+                </div>
+            </div><!-- content end -->
+        </div><!-- swiper-slide end -->
+
+        <!-- swiper-slide start -->
+        <div class="swiper-slide">
+            <!-- slide-bg -->
+            <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url({{ asset('themes/front/assets/images/backgrounds/2.jpeg') }})"></div>
+            <!-- bg-overlay -->
+            <div class="bg-overlay-black"></div>
+
+            <!-- content start -->
+            <div class="flex-min-height-100vh pos-rel" data-swiper-parallax-x="30%">
+                <div class="container small text-center padding-top-bottom-120">
+                    <h2 class="headline-xl">
+                        <span class="hidden-box d-block">
+                            <span class="anim-slide tr-delay-02">Nous sommes fournis</span>
+                        </span>
+                        <span class="hidden-box d-block">
+                            <span class="anim-slide tr-delay-03">
+                                <span class="text-color-red">Meilleure</span> Numérique
+                            </span>
+                        </span>
+                        <span class="hidden-box d-block">
+                            <span class="anim-slide tr-delay-04 text-color-red">Services</span>
+                        </span>
+                    </h2>
+                    <div class="margin-top-30 anim-fade tr-delay-08">
+                        <a href="#contact" class="border-btn js-pointer-large js-smooth-scroll ">
+                            <span class="border-btn__inner">Savoir plus</span>
+                            <span class="border-btn__lines-1"></span>
+                            <span class="border-btn__lines-2"></span>
+                        </a>
+                    </div>
+                </div>
+            </div><!-- content end -->
+        </div><!-- swiper-slide end -->
+
+        <!-- swiper-slide start -->
+        <div class="swiper-slide">
+            <!-- slide-bg -->
+            <div class="js-parallax-slide-bg bg-img-cover" style="background-image:url({{ asset('themes/front/assets/images/backgrounds/3.jpeg') }})"></div>
+            <!-- bg-overlay -->
+            <div class="bg-overlay-black"></div>
+
+            <!-- content start -->
+            <div class="flex-min-height-100vh pos-rel" data-swiper-parallax-x="30%">
+                <div class="container small padding-top-bottom-120">
+                    <h2 class="headline-xl">
+                        <span class="hidden-box d-block">
+                            <span class="anim-slide tr-delay-02">Meilleure Solutions</span>
+                        </span>
+                        <span class="hidden-box d-block">
+                            <span class="anim-slide tr-delay-03">& Des idées pour</span>
+                        </span>
+                        <span class="hidden-box d-block">
+                            <span class="anim-slide tr-delay-04">Votre entreprise</span>
+                        </span>
+                    </h2>
+                    <div class="margin-top-30 anim-fade tr-delay-08">
+                        <a href="#contact" class="border-btn js-pointer-large js-smooth-scroll ">
+                            <span class="border-btn__inner">Savoir plus</span>
+                            <span class="border-btn__lines-1"></span>
+                            <span class="border-btn__lines-2"></span>
+                        </a>
+                    </div>
+                </div>
+            </div><!-- content end -->
+        </div><!-- swiper-slide end -->
+    </div><!-- swiper-wrapper end -->
+
+    <!-- swiper-button-prev start -->
+    <div class="swiper-button-prev-box fullscreen-slider-arrow after-preloader-anim">
+        <div class="anim-fade">
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div><!-- swiper-button-prev end -->
+    <!-- swiper-button-next start -->
+    <div class="swiper-button-next-box fullscreen-slider-arrow after-preloader-anim">
+        <div class="anim-fade tr-delay-06">
+            <div class="swiper-button-next"></div>
+        </div>
+    </div><!-- swiper-button-next end -->
+
+    <!-- swiper-pagination start -->
+    <div class="pagination-box fullscreen-slider-pagination after-preloader-anim">
+        <div class="anim-fade tr-delay-03">
+            <div class="swiper-pagination counter-pagination"></div>
+        </div>
+    </div><!-- swiper-pagination end -->
+</section><!-- home slider end -->
+
+<!-- about us start Notre Mission -->
+<section id="mission" class="pos-rel section-bg-dark-2">
+    <!-- pos-rel start -->
+    <div class="pos-rel padding-top-bottom-120">
+        <!-- flex-container start -->
+        <div class="container flex-container padding-bottom-70">
+            <!-- column start -->
+            <div class="six-columns padding-bottom-20">
+                <!-- title start -->
+                <h2 class="column-l-r-margin-10 headline-m js-scrollanim">
+                    <span class="hidden-box d-block">
+                        <span class="anim-slide">
+                            Notre Mission
+                        </span>
+                    </span>
+                    <span class="hidden-box d-block">
+                        <span class="anim-slide tr-delay-01 text-color-red">Chez VicGen Agency nous
+                            souhaitons concrétiser votre projet.
+                        </span>
+                    </span>
+                </h2><!-- title end -->
+            </div><!-- column end -->
+
+            <!-- column start -->
+            <div class="six-columns padding-bottom-20">
+                <div class="column-l-r-margin-10">
+                    <p class="body-text-s anim-text-reveal js-scrollanim">
+                        Notre mission est de répondre au mieux à vos besoins en utilisant
+                        les meilleures technologies du moment.
+                        VicGen Agency, étape par étape donne vie à votre projet.
+                        Nous travaillons à travers votre regard car notre vision prend en
+                        compte votre vision.
+                        Nos collaborateurs déploient aujourd'hui leurs atouts au sein de 3
+                        agences à Paris, Dakar et Bruxelles.
+                        L'esprit VicGen, c'est eux! Créatifs et techniques, jeunes et moins
+                        jeunes, communicatifs et discrets, tous ont en commun une envie
+                        d'avancer et de sans cesse se renouveler à vos côtés
+                    </p>
+
+                    <!-- list start -->
+                    <ul class="list text-color-dadada margin-top-30 js-scrollanim">
+                        <li class="list__item red dot hidden-box">
+                            <div class="subhead-xxs anim-slide">
+                                Web Services (UX/UI Design; Applications mobiles; Sites internets; Web Marketing; Stratégie; Image de marque; Campagnes 36)
+                            </div>
+                        </li>
+                        <li class="list__item red dot hidden-box">
+                            <div class="subhead-xxs anim-slide tr-delay-01">
+                                Graphisme (Graphic design; Web design; Branding services)
+                            </div>
+                        </li>
+                        <li class="list__item red dot hidden-box">
+                            <div class="subhead-xxs anim-slide tr-delay-02">
+                                Community Managemen (Animation réseaux; Création de contenu; Veille & reporting)
+                            </div>
+                        </li>
+                        <li class="list__item red dot hidden-box">
+                            <div class="subhead-xxs anim-slide tr-delay-03">
+                                Web Marketing (Stratégie; Image de marque; Campagnes 360)
+                            </div>
+                        </li>
+                    </ul><!-- list end -->
+                </div>
+            </div><!-- column end -->
+        </div><!-- flex-container end -->
+
+        <!-- js-infinite-slider start -->
+        <div class="js-infinite-slider about-slider hidden-box">
+            <!-- swiper-wrapper start -->
+            <div class="swiper-wrapper">
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <img src="{{ asset('themes/front/assets/images/about/about_slider/people-holding-their-phones-3184435.jpg') }}" alt="About us">
+                </div><!-- swiper-slide end -->
+
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <img src="{{ asset('themes/front/assets/images/about/about_slider/fashion-people-woman-girl-3979213.jpg') }}" alt="About us">
+                    <img class="padding-top-20" src="{{ asset('themes/front/assets/images/about/about_slider/men-writing-on-board-3184633.jpg') }}" alt="About us">
+                </div><!-- swiper-slide end -->
+
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <img src="{{ asset('themes/front/assets/images/about/about_slider/man-people-desk-laptop-3931391.jpg') }}" alt="About us">
+                </div><!-- swiper-slide end -->
+
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <img src="{{ asset('themes/front/assets/images/about/about_slider/photo-of-man-using-smartphone-3183191.jpg') }}" alt="About us">
+                </div><!-- swiper-slide end -->
+
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <img src="{{ asset('themes/front/assets/images/about/about_slider/fashion-woman-girl-cute-3979116.jpg') }}" alt="About us">
+                    <img class="padding-top-20" src="{{ asset('themes/front/assets/images/about/about_slider/fashion-man-people-school-3799830.jpg') }}" alt="About us">
+                </div><!-- swiper-slide end -->
+
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <img src="{{ asset('themes/front/assets/images/about/about_slider/women-using-computers-3184348.jpg') }}" alt="About us">
+                </div><!-- swiper-slide end -->
+
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <img src="{{ asset('themes/front/assets/images/about/about_slider/man-wearing-purple-long-sleeved-shirt-looking-at-the-ipad-3184326.jpg') }}" alt="About us">
+                </div><!-- swiper-slide end -->
+
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <img src="{{ asset('themes/front/assets/images/about/about_slider/women-s-white-framed-sunglasses-2690323.jpg') }}" alt="About us">
+                    <img class="padding-top-20" src="{{ asset('themes/front/assets/images/about/about_slider/fashion-man-sunglasses-people-3965233.jpg') }}" alt="About us">
+                </div><!-- swiper-slide end -->
+
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <img src="{{ asset('themes/front/assets/images/about/about_slider/fashion-woman-girl-cute-3979104.jpg') }}" alt="About us">
+                </div><!-- swiper-slide end -->
+            </div><!-- swiper-wrapper end -->
+        </div><!-- js-infinite-slider end -->
+    </div><!-- pos-rel end -->
+</section><!-- about us end -->
+
+<!-- work process start Travaillons ensemble -->
+<section id="travaillons" class="pos-rel section-bg-dark-1">
+    <!-- pos-rel start -->
+    <div class="pos-rel flex-min-height-100vh">
+        <!-- flex-container start -->
+        <div class="container flex-container padding-top-60 padding-bottom-120">
+            <!-- column start -->
+            <div class="four-columns column-100-100 padding-top-60 padding-bottom-30">
+                <div class="column-r-margin-20-999">
+                    <h2 class="headline-xxs hidden-box">
+                        <span class="anim-slide js-scrollanim">Travaillons ensemble sur:</span>
+                    </h2>
+                </div>
+            </div><!-- column end -->
+
+            <!-- column start -->
+            <div class="four-columns column-50-100 padding-top-60">
+                <div class="column-r-margin-20 js-scrollanim">
+                    <span class="subhead-s text-color-red d-block hidden-box">
+                        <span class="anim-slide">01</span>
+                    </span>
+                    <h3 class="headline-xxxs margin-top-30 hidden-box">
+                        <span class="anim-slide tr-delay-01">Votre Notoriété</span>
+                    </h3>
+                    <p class="body-text-xs margin-top-20 anim-text-reveal tr-delay-02">
+                        La notoriété permet de vous faire connaître auprès d’un maximum d’internautes de votre cible. Les   internautes doivent être en mesure après quelques mois de citer spontanément votre nom et d’avoir la capacité de citer des caractéristiques de votre marque.
+                    </p>
+                </div>
+            </div><!-- column end -->
+
+            <!-- column start -->
+            <div class="four-columns column-50-100 padding-top-60">
+                <div class="column-r-margin-20 js-scrollanim">
+                    <span class="subhead-s text-color-red d-block hidden-box">
+                        <span class="anim-slide">02</span>
+                    </span>
+                    <h3 class="headline-xxxs margin-top-30 hidden-box">
+                        <span class="anim-slide tr-delay-01">Acquisition</span>
+                    </h3>
+                    <p class="body-text-xs margin-top-20 anim-text-reveal tr-delay-02">
+                        L’acquisition de clients renvoie au fait de gagner des visiteurs et des acheteurs. Pour votre
+                        société, il faut choisir les leviers les plus pertinents pour acquérir un maximum d’internautes.
+                    </p>
+                </div>
+            </div><!-- column end -->
+
+            <!-- column start -->
+            <div class="four-offset four-columns column-50-100 padding-top-60">
+                <div class="column-r-margin-20 js-scrollanim">
+                    <span class="subhead-s text-color-red d-block hidden-box">
+                        <span class="anim-slide">03</span>
+                    </span>
+                    <h3 class="headline-xxxs margin-top-30 hidden-box">
+                        <span class="anim-slide tr-delay-01">Fidélisation</span>
+                    </h3>
+                    <p class="body-text-xs margin-top-20 anim-text-reveal tr-delay-02">
+                        La fidélisation peut recourir
+                        à de nombreuses actions et
+                        à la mise en place de
+                        multiples dispositifs. Une
+                        démarche de fidélisation
+                        réussie impacte très
+                        fortement la rentabilité de la
+                        plupart des entreprises.
+                    </p>
+                </div>
+            </div><!-- column end -->
+
+            <!-- column start -->
+            <div class="four-columns column-50-100 padding-top-60">
+                <div class="column-r-margin-20 js-scrollanim">
+                    <span class="subhead-s text-color-red d-block hidden-box">
+                        <span class="anim-slide">04</span>
+                    </span>
+                    <h3 class="headline-xxxs margin-top-30 hidden-box">
+                        <span class="anim-slide tr-delay-01">Transparence</span>
+                    </h3>
+                    <p class="body-text-xs margin-top-20 anim-text-reveal tr-delay-02">
+                        Dans tous les projets que
+                        nous créons, nous avons des
+                        objectifs adaptés à votre
+                        demande. Il ne suffit pas
+                        d’avoir un beau site ou une
+                        belle application, il faut vous
+                        faire connaître auprès de
+                        votre cible.
+                    </p>
+                </div>
+            </div><!-- column end -->
+        </div><!-- flex-container end -->
+    </div><!-- pos-rel end -->
+</section><!-- work process end -->
+
+<!-- what we do start comment travaillons-nous-->
+<section id="comment-travaillons-nous" class="pos-rel section-bg-dark-2">
+    <!-- pos-rel start -->
+    <div class="pos-rel flex-min-height-100vh">
+        <!-- flex-container start -->
+        <div class="container flex-container padding-top-100 padding-bottom-120">
+            <!-- column start -->
+            <div class="four-columns padding-top-20">
+                <h2 class="headline-xxs hidden-box">
+                    <span class="anim-slide js-scrollanim">Comment travaillons-nous ?</span>
+                </h2>
+            </div><!-- column end -->
+
+            <!-- column start -->
+            <div class="eight-columns padding-top-20">
+                <div class="column-l-margin-40">
+                    <p class="body-text-m anim-text-reveal js-scrollanim">
+                        Nous travaillons en méthode Agile pour trouver les meilleures solutions aux
+                        problèmes que nous pouvons rencontrer lors des différentes étapes du projet.
+                    </p>
+
+                    <!-- accordion start -->
+                    <div class="accordion accordion_underline js-accordion margin-top-60">
+                        <!-- accordion__tab start -->
+                        <div class="accordion__tab js-accordion-tab">
+                            <div class="accordion__btn js-accordion-btn js-pointer-large">
+                                <h6 class="accordion__btn-title headline-xxxs margin-top-bottom-20">Veille et analyse de votre cahier des charges</h6>
+                            </div>
+                            <div class="accordion__content js-accordion-content">
+                                <p class="body-text-xs">
+                                    La première étape est la plus
+                                    importante, c’est cette étape qui
+                                    va définir la base de votre
+                                    stratégie et de vos fonctionnalités.
+                                </p>
+                            </div>
+                        </div><!-- accordion__tab end -->
+
+                        <!-- accordion__tab start -->
+                        <div class="accordion__tab js-accordion-tab">
+                            <div class="accordion__btn js-accordion-btn js-pointer-large">
+                                <h6 class="accordion__btn-title headline-xxxs margin-top-bottom-20">Définir votre stratégie et vos fonctionnalités</h6>
+                            </div>
+                            <div class="accordion__content js-accordion-content">
+                                <p class="body-text-xs">
+                                    Notre équipe marketing va définir votre stratégie par
+                                    rapport à votre marché et à votre objectif. Le chef de
+                                    projet avec l’équipe technique vont définir votre
+                                    périmètre technique avec toutes les fonctionnalités
+                                    nécessaires à votre projet.
+                                </p>
+                            </div>
+                        </div><!-- accordion__tab end -->
+
+                        <!-- accordion__tab start -->
+                        <div class="accordion__tab js-accordion-tab">
+                            <div class="accordion__btn js-accordion-btn js-pointer-large">
+                                <h6 class="accordion__btn-title headline-xxxs margin-top-bottom-20">Réaliser les maquettes design</h6>
+                            </div>
+                            <div class="accordion__content js-accordion-content">
+                                <p class="body-text-xs">    
+                                    Nous prenons en compte
+                                    l’expérience utilisateur et
+                                    l’interface utilisateur (UX / UI) pour
+                                    créer les maquettes fonctionnelles
+                                    et design.
+                                </p>
+                            </div>
+                        </div><!-- accordion__tab end -->
+
+                        <!-- accordion__tab start -->
+                        <div class="accordion__tab js-accordion-tab">
+                            <div class="accordion__btn js-accordion-btn js-pointer-large">
+                                <h6 class="accordion__btn-title headline-xxxs margin-top-bottom-20">Dévéloppement et Intégration</h6>
+                            </div>
+                            <div class="accordion__content js-accordion-content">
+                                <p class="body-text-xs">
+                                    Nos développeurs utilisent les
+                                    meilleures technologies pour
+                                    réaliser votre site web et/ou votre
+                                    application,
+                                </p>
+                            </div>
+                        </div><!-- accordion__tab end -->
+
+                        <!-- accordion__tab start -->
+                        <div class="accordion__tab js-accordion-tab">
+                            <div class="accordion__btn js-accordion-btn js-pointer-large">
+                                <h6 class="accordion__btn-title headline-xxxs margin-top-bottom-20">Tests</h6>
+                            </div>
+                            <div class="accordion__content js-accordion-content">
+                                <p class="body-text-xs">Cette phase est primordiale, elle permet de contrôler si
+                                    tout est conforme au cahier des charges. De plus, nous
+                                    pouvons dans cette phase, faire des tests utilisateurs,
+                                    pour proposer la meilleure navigation possible à votre
+                                    cible.
+                                </p>
+                            </div>
+                        </div><!-- accordion__tab end -->
+
+                        <!-- accordion__tab start -->
+                        <div class="accordion__tab js-accordion-tab">
+                            <div class="accordion__btn js-accordion-btn js-pointer-large">
+                                <h6 class="accordion__btn-title headline-xxxs margin-top-bottom-20">Livraison</h6>
+                            </div>
+                            <div class="accordion__content js-accordion-content">
+                                <p class="body-text-xs">
+                                    Nous vous donnons votre site
+                                    web et/ou l’application clé en
+                                    main, Nous vous proposons
+                                    également une maintenance
+                                    évolutive pour vous accompagner
+                                    au mieux pour la suite de vos
+                                    projets et de votre évolution.
+                                </p>
+                            </div>
+                        </div><!-- accordion__tab end -->
+                    </div><!-- accordion end -->
+                </div>
+            </div><!-- column end -->
+        </div><!-- flex-container end -->
+    </div><!-- pos-rel end -->
+</section><!-- what we do end -->
+
+<!-- portfolio start Réalisations -->
+<section id="realisations" class="pos-rel section-bg-light-2" data-midnight="black">
+    <!-- pos-rel start -->
+    <div class="pos-rel padding-top-bottom-120">
+        <!-- title start -->
+        <h2 class="headline-xxxl text-color-black text-center hidden-box js-scrollanim">
+            <span class="anim-slide">
+                Nos dernières <span class="text-color-red">Réalisations</span>
+            </span>
+        </h2><!-- title end -->
+
+        <!-- filter-buttons start -->
+        <div class="list list_row list_center list_margin-30px padding-top-90 js-filter-button-box js-scrollanim">
+            <button class="list__item js-filter-button anim-fade js-pointer-small js-filter-button-active" data-filter="*">
+                <span class="flip-btn text-color-black" data-text="Tout">Tout</span>
+            </button>
+            <button class="list__item js-filter-button anim-fade tr-delay-01 js-pointer-small" data-filter=".web-service">
+                <span class="flip-btn text-color-black" data-text="Web services">Web services</span>
+            </button>
+            <button class="list__item js-filter-button anim-fade tr-delay-02 js-pointer-small" data-filter=".graphisme">
+                <span class="flip-btn text-color-black" data-text="Graphisme">Graphisme</span>
+            </button>
+            <button class="list__item js-filter-button anim-fade tr-delay-03 js-pointer-small" data-filter=".community-management">
+                <span class="flip-btn text-color-black" data-text="Community Management">Community Management</span>
+            </button>
+            <button class="list__item js-filter-button anim-fade tr-delay-04 js-pointer-small" data-filter=".web-marketing">
+                <span class="flip-btn text-color-black" data-text="Web Marketing">Web Marketing</span>
+            </button>
+        </div><!-- filter-buttons end -->
+
+        <!-- js-isotope-filter-grid-box start -->
+        <div class="js-isotope-filter-grid-box container full">
+            <!-- empty grid -->
+            <div class="js-isotope-filter-grid-item empty-grid-1px-33-50-none"></div>
+            <div class="js-isotope-filter-grid-item empty-grid-200px-33-none"></div>
+            <div class="js-isotope-filter-grid-item empty-grid-100px-33-50-none"></div>
+            <div class="js-isotope-filter-grid-item empty-grid-100px-33-50-none"></div>
+
+            <!-- grid-item start -->
+            <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item web-service">
+                <a href="project_drone.html" class="grid-margin-box hover-box js-smooth-scroll js-pointer-large">
+                    <div class="anim-img-scale anim-img-scale_hover js-img-scale">
+                        <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/realisations/8.jpg') }}" alt="project">
+                    </div>
+                    <div class="margin-top-10 js-scrollanim">
+                        <span class="hidden-box d-block">
+                            <span class="subhead-xxs text-color-red anim-slide">Web service</span>
+                        </span>
+                        <h3 class="hidden-box">
+                            <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Sneakers</span>
+                        </h3>
+                    </div>
+                </a>
+            </div><!-- grid-item end -->
+
+            <!-- grid-item start -->
+            <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item web-marketing">
+                <a href="project_drone.html" class="grid-margin-box hover-box js-smooth-scroll js-pointer-large">
+                    <div class="anim-img-scale anim-img-scale_hover js-img-scale">
+                        <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/realisations/2.jpg') }}" alt="project">
+                    </div>
+                    <div class="margin-top-10 js-scrollanim">
+                        <span class="hidden-box d-block">
+                            <span class="subhead-xxs text-color-red anim-slide">Web marketing</span>
+                        </span>
+                        <h3 class="hidden-box">
+                            <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Hoop earrings</span>
+                        </h3>
+                    </div>
+                </a>
+            </div><!-- grid-item end -->
+
+            <!-- grid-item start -->
+            <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item graphisme">
+                <a href="project_drone.html" class="grid-margin-box hover-box js-smooth-scroll js-pointer-large">
+                    <div class="anim-img-scale anim-img-scale_hover js-img-scale">
+                        <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/realisations/3.jpg') }}" alt="project">
+                    </div>
+                    <div class="margin-top-10 js-scrollanim">
+                        <span class="hidden-box d-block">
+                            <span class="subhead-xxs text-color-red anim-slide">Graphisme</span>
+                        </span>
+                        <h3 class="hidden-box">
+                            <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Pexels</span>
+                        </h3>
+                    </div>
+                </a>
+            </div><!-- grid-item end -->
+
+            <!-- grid-item start -->
+            <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item web-marketing">
+                <a href="project_drone.html" class="grid-margin-box hover-box js-smooth-scroll js-pointer-large">
+                    <div class="anim-img-scale anim-img-scale_hover js-img-scale">
+                        <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/realisations/4.jpg') }}" alt="project">
+                    </div>
+                    <div class="margin-top-10 js-scrollanim">
+                        <span class="hidden-box d-block">
+                            <span class="subhead-xxs text-color-red anim-slide">Web marketing</span>
+                        </span>
+                        <h3 class="hidden-box">
+                            <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Hoop earrings</span>
+                        </h3>
+                    </div>
+                </a>
+            </div><!-- grid-item end -->
+
+            <!-- grid-item start -->
+            <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item web-service">
+                <a href="project_drone.html" class="grid-margin-box hover-box js-smooth-scroll js-pointer-large">
+                    <div class="anim-img-scale anim-img-scale_hover js-img-scale">
+                        <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/realisations/5.jpg') }}" alt="project">
+                    </div>
+                    <div class="margin-top-10 js-scrollanim">
+                        <span class="hidden-box d-block">
+                            <span class="subhead-xxs text-color-red anim-slide">Web service</span>
+                        </span>
+                        <h3 class="hidden-box">
+                            <span class="headline-xxxs text-color-black anim-slide tr-delay-02">Sneakers</span>
+                        </h3>
+                    </div>
+                </a>
+            </div><!-- grid-item end -->
+
+            <!-- grid-item start -->
+            <div class="padding-top-60 grid-item-33-50-100 js-isotope-filter-grid-item community-management">
+                <a href="project_drone.html" class="grid-margin-box hover-box js-smooth-scroll js-pointer-large">
+                    <div class="anim-img-scale anim-img-scale_hover js-img-scale">
+                        <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/realisations/6.jpg') }}" alt="project">
+                    </div>
+                    <div class="margin-top-10 js-scrollanim">
+                        <span class="hidden-box d-block">
+                            <span class="subhead-xxs text-color-red anim-slide">Community Management</span>
+                        </span>
+                        <h3 class="hidden-box">
+                            <span class="headline-xxxs text-color-black anim-slide tr-delay-02">The ordinary</span>
+                        </h3>
+                    </div>
+                </a>
+            </div><!-- grid-item end -->
+
+        </div><!-- js-isotope-filter-grid-box end -->
+    </div><!-- pos-rel end -->
+</section><!-- portfolio end -->
+
+<!-- courses start VicGen Agency vous offre -->
+<section id="offre" class="pos-rel section-bg-light-2" data-midnight="black">
+    <!-- pos-rel start -->
+    <div class="pos-rel padding-top-bottom-120">
+        <!-- title start -->
+        <h2 class="headline-xl text-color-black text-center hidden-box">
+            <span class="anim-slide js-scrollanim">VicGen Agency vous offre</span>
+        </h2><!-- title end -->
+
+        <!-- flex-container start -->
+        <div class="flex-container flex-align-center padding-top-60">
+            <!-- column start -->
+            <div class="five-columns column-50-100 padding-top-30">
+                <a href="{{ asset('themes/front/assets/images/projects/courses/graphic-tablet-and-open-book-with-drawing-located-on-marble-3850229.jpg') }}" class="d-block anim-overlay js-scrollanim js-pointer-zoom js-photo-popup">
+                    <img src="{{ asset('themes/front/assets/images/projects/courses/graphic-tablet-and-open-book-with-drawing-located-on-marble-3850229.jpg') }}" alt="course">
+                </a>
+            </div><!-- column end -->
+            <!-- column start -->
+            <div class="four-columns column-50-100 padding-top-30">
+                <div class="column-l-margin-20 anim-fade js-scrollanim">
+                    <div class="margin-left-right-20">
+                        <div class="margin-bottom-30">
+                            <span class="subhead-xxs text-color-red"></span>
+                            <h3 class="headline-xxxs text-color-black margin-top-5">
+                                Idées créatives
+                            </h3>
+                            <p class="body-text-s text-color-black margin-top-20">
+                                De nouvelles idées afin de vous <br> démarquer de la concurrence.
+                            </p>
+                        </div>
+                        <a href="#" class="skew-btn js-pointer-large">
+                            <span class="skew-btn__box">
+                                <span class="skew-btn__content text-color-black">Savoir plus</span>
+                                <span class="skew-btn__arrow black"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div><!-- column end -->
+        </div><!-- flex-container end -->
+
+        <!-- flex-container start -->
+        <div class="flex-container reverse flex-align-center padding-top-60">
+            <!-- column start -->
+            <div class="three-offset four-columns column-50-100 padding-top-30">
+                <div class="column-r-margin-20 anim-fade js-scrollanim">
+                    <div class="margin-left-right-20">
+                        <div class="margin-bottom-30">
+                            <span class="subhead-xxs text-color-red"></span>
+                            <h3 class="headline-xxxs text-color-black margin-top-5">
+                                Parfait Support
+                            </h3>
+                            <p class="body-text-s text-color-black margin-top-20">
+                                Notre souhait est de vous guider <br> en toute sincérité tout au <br> long de votre business
+                            </p>
+                        </div>
+                        <a href="#" class="skew-btn js-pointer-large">
+                            <span class="skew-btn__box">
+                                <span class="skew-btn__content text-color-black">Savoir plus</span>
+                                <span class="skew-btn__arrow black"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div><!-- column end -->
+            <!-- column start -->
+            <div class="five-columns column-50-100 padding-top-30">
+                <a href="{{ asset('themes/front/assets/images/projects/courses/man-using-laptop-on-table-against-white-background-257897.jpg') }}" class="d-block anim-overlay js-scrollanim js-pointer-zoom js-photo-popup">
+                    <img src="{{ asset('themes/front/assets/images/projects/courses/man-using-laptop-on-table-against-white-background-257897.jpg') }}" alt="course">
+                </a>
+            </div><!-- column end -->
+        </div><!-- flex-container end -->
+
+        <!-- flex-container start -->
+        <div class="flex-container flex-align-center padding-top-60">
+            <!-- column start -->
+            <div class="five-columns column-50-100 padding-top-30">
+                <a href="{{ asset('themes/front/assets/images/projects/courses/notebook-with-smartphone-showing-photo-gallery-app-on-screen-3850246.jpg') }}" class="d-block anim-overlay js-scrollanim js-pointer-zoom js-photo-popup">
+                    <img src="{{ asset('themes/front/assets/images/projects/courses/notebook-with-smartphone-showing-photo-gallery-app-on-screen-3850246.jpg') }}" alt="course">
+                </a>
+            </div><!-- column end -->
+            <!-- column start -->
+            <div class="four-columns column-50-100 padding-top-30">
+                <div class="column-l-margin-20 anim-fade js-scrollanim">
+                    <div class="margin-left-right-20">
+                        <div class="margin-bottom-30">
+                            <span class="subhead-xxs text-color-red"></span>
+                            <h3 class="headline-xxxs text-color-black margin-top-5">
+                                Focus sur le business
+
+                            </h3>
+                            <p class="body-text-s text-color-black margin-top-20">
+                                Nous réitérons les actions avec <br> les améliorations afin d’avoir <br> un résultat optimal
+                            </p>
+                        </div>
+                        <a href="#" class="skew-btn js-pointer-large">
+                            <span class="skew-btn__box">
+                                <span class="skew-btn__content text-color-black">Savoir plus</span>
+                                <span class="skew-btn__arrow black"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div><!-- column end -->
+        </div><!-- flex-container end -->
+
+        <!-- flex-container start -->
+        <div class="flex-container reverse flex-align-center padding-top-60">
+            <!-- column start -->
+            <div class="three-offset four-columns column-50-100 padding-top-30">
+                <div class="column-r-margin-20 anim-fade js-scrollanim">
+                    <div class="margin-left-right-20">
+                        <div class="margin-bottom-30">
+                            <span class="subhead-xxs text-color-red"></span>
+                            <h3 class="headline-xxxs text-color-black margin-top-5">
+                                Équipe talentueuse
+                            </h3>
+                            <p class="body-text-s text-color-black margin-top-20">
+                                Une équipe riche en expérience <br> et en constante apprentissage.
+                            </p>
+                        </div>
+                        <a href="#" class="skew-btn js-pointer-large">
+                            <span class="skew-btn__box">
+                                <span class="skew-btn__content text-color-black">Learn more</span>
+                                <span class="skew-btn__arrow black"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div><!-- column end -->
+            <!-- column start -->
+            <div class="five-columns column-50-100 padding-top-30">
+                <a href="{{ asset('themes/front/assets/images/projects/courses/paper-with-text-lying-over-book-3847702.jpg') }}" class="d-block anim-overlay js-scrollanim js-pointer-zoom js-photo-popup">
+                    <img src="{{ asset('themes/front/assets/images/projects/courses/paper-with-text-lying-over-book-3847702.jpg') }}" alt="course">
+                </a>
+            </div><!-- column end -->
+        </div><!-- flex-container end -->
+
+        <!-- flex-container start -->
+        <div class="flex-container flex-align-center padding-top-60">
+            <!-- column start -->
+            <div class="five-columns column-50-100 padding-top-30">
+                <a href="{{ asset('themes/front/assets/images/projects/courses/notebook-with-smartphone-showing-photo-gallery-app-on-screen-3850246.jpg') }}" class="d-block anim-overlay js-scrollanim js-pointer-zoom js-photo-popup">
+                    <img src="{{ asset('themes/front/assets/images/projects/courses/notebook-with-smartphone-showing-photo-gallery-app-on-screen-3850246.jpg') }}" alt="course">
+                </a>
+            </div><!-- column end -->
+            <!-- column start -->
+            <div class="four-columns column-50-100 padding-top-30">
+                <div class="column-l-margin-20 anim-fade js-scrollanim">
+                    <div class="margin-left-right-20">
+                        <div class="margin-bottom-30">
+                            <span class="subhead-xxs text-color-red"></span>
+                            <h3 class="headline-xxxs text-color-black margin-top-5">
+                                Ecoute
+                            </h3>
+                            <p class="body-text-s text-color-black margin-top-20">
+                                La compréhension de vos besoins <br> et attentes sont au centre de notre attention.
+                            </p>
+                        </div>
+                        <a href="#" class="skew-btn js-pointer-large">
+                            <span class="skew-btn__box">
+                                <span class="skew-btn__content text-color-black">Savoir plus</span>
+                                <span class="skew-btn__arrow black"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div><!-- column end -->
+        </div><!-- flex-container end -->
+
+        <!-- flex-container start -->
+        <div class="flex-container reverse flex-align-center padding-top-60">
+            <!-- column start -->
+            <div class="three-offset four-columns column-50-100 padding-top-30">
+                <div class="column-r-margin-20 anim-fade js-scrollanim">
+                    <div class="margin-left-right-20">
+                        <div class="margin-bottom-30">
+                            <span class="subhead-xxs text-color-red"></span>
+                            <h3 class="headline-xxxs text-color-black margin-top-5">
+                                internationale
+                            </h3>
+                            <p class="body-text-s text-color-black margin-top-20">
+                                Notre présence géographique nous permet <br> de vous rencontrer presque partout en Europe <br> et au Moyen Orient.
+                            </p>
+                        </div>
+                        <a href="#" class="skew-btn js-pointer-large">
+                            <span class="skew-btn__box">
+                                <span class="skew-btn__content text-color-black">Learn more</span>
+                                <span class="skew-btn__arrow black"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div><!-- column end -->
+            <!-- column start -->
+            <div class="five-columns column-50-100 padding-top-30">
+                <a href="{{ asset('themes/front/assets/images/projects/courses/paper-with-text-lying-over-book-3847702.jpg') }}" class="d-block anim-overlay js-scrollanim js-pointer-zoom js-photo-popup">
+                    <img src="{{ asset('themes/front/assets/images/projects/courses/paper-with-text-lying-over-book-3847702.jpg') }}" alt="course">
+                </a>
+            </div><!-- column end -->
+        </div><!-- flex-container end -->
+    </div><!-- pos-rel end -->
+</section><!-- courses end -->
+
+<!-- team start Nos espères -->
+<section id="experts" class="pos-rel section-bg-dark-2">
+    <!-- pos-rel start -->
+    <div class="pos-rel padding-top-bottom-120">
+        <!-- title start -->
+        <h2 class="headline-xxl text-center js-scrollanim hidden-box">
+            <span class="anim-slide">
+                Notre <span class="text-color-red">équipe</span>
+            </span>
+        </h2><!-- title end -->
+
+        <!-- js-3-view-slider start -->
+        <div class="js-3-view-slider padding-top-bottom-90 hidden-box pos-rel">
+            <!-- swiper-wrapper start -->
+            <div class="swiper-wrapper js-slider-scroll-anim">
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <!-- anim-img-scale start -->
+                    <div class="anim-img-scale hover-box">
+                        <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/team/team_slider/red-air-jordan-baseball-cap-3452649.jpg') }}" alt="Jason Hardeman">
+
+                        <!-- social btns start -->
+                        <ul class="list pos-abs pos-left-top">
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-01">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-02">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-03">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-04">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
+                                </div>
+                            </li>
+                        </ul><!-- social btns end -->
+                    </div><!-- anim-img-scale end -->
+
+                    <!-- content start -->
+                    <div class="margin-top-20 margin-left-20">
+                        <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Jason Hardeman">Jason Hardeman</h4><br>
+                        <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Creative director">Creative director</p>
+                    </div><!-- content end -->
+                </div><!-- swiper-slide end -->
+
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <!-- anim-img-scale start -->
+                    <div class="anim-img-scale hover-box">
+                        <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/team/team_slider/woman-wearing-eyeglasses-on-brown-wooden-plank-1845210.jpg') }}" alt="Amanda Bryan">
+
+                        <!-- social btns start -->
+                        <ul class="list pos-abs pos-left-top">
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-01">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-02">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-03">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-04">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
+                                </div>
+                            </li>
+                        </ul><!-- social btns end -->
+                    </div><!-- anim-img-scale end -->
+
+                    <!-- content start -->
+                    <div class="margin-top-20 margin-left-20">
+                        <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Amanda Bryan">Amanda Bryan</h4><br>
+                        <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Ui/UX designer">Ui/UX designer</p>
+                    </div><!-- content end -->
+                </div><!-- swiper-slide end -->
+
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <!-- anim-img-scale start -->
+                    <div class="anim-img-scale hover-box">
+                        <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/team/team_slider/woman-posing-for-photo-shoot-1689731.jpg') }}" alt="Sharon Arney">
+
+                        <!-- social btns start -->
+                        <ul class="list pos-abs pos-left-top">
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-01">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-02">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-03">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-04">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
+                                </div>
+                            </li>
+                        </ul><!-- social btns end -->
+                    </div><!-- anim-img-scale end -->
+
+                    <!-- content start -->
+                    <div class="margin-top-20 margin-left-20">
+                        <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Sharon Arney">Sharon Arney</h4><br>
+                        <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Project manager">Project manager</p>
+                    </div><!-- content end -->
+                </div><!-- swiper-slide end -->
+
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <!-- anim-img-scale start -->
+                    <div class="anim-img-scale hover-box">
+                        <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/team/team_slider/woman-wearing-black-tank-top-sitting-on-gray-stainless-steel-1850178.jpg') }}" alt="Alyse Quintero">
+
+                        <!-- social btns start -->
+                        <ul class="list pos-abs pos-left-top">
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-01">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-02">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-03">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-04">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
+                                </div>
+                            </li>
+                        </ul><!-- social btns end -->
+                    </div><!-- anim-img-scale end -->
+
+                    <!-- content start -->
+                    <div class="margin-top-20 margin-left-20">
+                        <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Alyse Quintero">Alyse Quintero</h4><br>
+                        <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Front-end developer">Front-end developer</p>
+                    </div><!-- content end -->
+                </div><!-- swiper-slide end -->
+
+                <!-- swiper-slide start -->
+                <div class="swiper-slide">
+                    <!-- anim-img-scale start -->
+                    <div class="anim-img-scale hover-box">
+                        <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/team/team_slider/photo-of-woman-leaning-on-wall-2936815.jpg') }}" alt="Ashley Keller">
+
+                        <!-- social btns start -->
+                        <ul class="list pos-abs pos-left-top">
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Facebook">Facebook</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-01">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Dribbble">Dribbble</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-02">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Instagram">Instagram</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-03">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Behance">Behance</a>
+                                </div>
+                            </li>
+                            <li class="list__item hidden-box">
+                                <div class="hover-slide tr-delay-04">
+                                    <a href="#" class="flip-btn js-pointer-small" data-text="Twitter">Twitter</a>
+                                </div>
+                            </li>
+                        </ul><!-- social btns end -->
+                    </div><!-- anim-img-scale end -->
+
+                    <!-- content start -->
+                    <div class="margin-top-20 margin-left-20">
+                        <h4 class="subhead-m anim-text-double-fill tr-delay-01" data-text="Ashley Keller">Ashley Keller</h4><br>
+                        <p class="headline-xxxxs margin-top-5 anim-text-double-fill invert tr-delay-03" data-text="Back-end developer">Back-end developer</p>
+                    </div><!-- content end -->
+                </div><!-- swiper-slide end -->
+            </div><!-- swiper-wrapper end -->
+
+            <!-- swiper-button-prev start -->
+            <div class="swiper-button-prev-box">
+                <div class="swiper-button-prev"></div>
+            </div><!-- swiper-button-prev end -->
+            <!-- swiper-button-next start -->
+            <div class="swiper-button-next-box">
+                <div class="swiper-button-next"></div>
+            </div><!-- swiper-button-next end -->
+
+            <!-- swiper-pagination start -->
+            <div class="pagination-box">
+                <div class="swiper-pagination counter-pagination"></div>
+            </div><!-- swiper-pagination end -->
+        </div><!-- js-3-view-slider end -->
+    </div><!-- pos-rel end -->
+</section><!-- team end -->
+
+<!-- clients start -->
+<section class="pos-rel section-bg-dark-1">
+    <!-- pos-rel start -->
+    <div class="pos-rel flex-min-height-100vh">
+        <!-- container start -->
+        <div class="padding-top-bottom-120 container">
+            <!-- title start -->
+            <h2 class="headline-l js-scrollanim">
+                <span class="hidden-box d-block">
+                    <span class="anim-slide tr-delay-01">Nos</span>
+                </span>
+                <span class="hidden-box d-block">
+                    <span class="anim-slide">
+                        <span class="text-color-red">Partenaires</span>
+                    </span>
+                </span>
+            </h2><!-- title end -->
+
+            <!-- clients-lines start -->
+            <div class="clients-lines padding-top-90">
+                <!-- clients-lines__column start -->
+                <div class="clients-lines__column">
+                    <div class="clients-lines__inner hover-box pos-rel">
+                        <img class="client-logo client-hover-out pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/balancha.png') }}" alt="clients logo">
+                        <img class="client-logo client-hover-in pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/balancha-red.png') }}" alt="clients logo">
+                    </div>
+                </div><!-- clients-lines__column end -->
+
+                <!-- clients-lines__column start -->
+                <div class="clients-lines__column">
+                    <div class="clients-lines__inner hover-box pos-rel">
+                        <img class="client-logo client-hover-out pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/jorgo.png') }}" alt="clients logo">
+                        <img class="client-logo client-hover-in pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/jorgo-red.png') }}" alt="clients logo">
+                    </div>
+                </div><!-- clients-lines__column end -->
+
+                <!-- clients-lines__column start -->
+                <div class="clients-lines__column">
+                    <div class="clients-lines__inner hover-box pos-rel">
+                        <img class="client-logo client-hover-out pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/judoboy.png') }}" alt="clients logo">
+                        <img class="client-logo client-hover-in pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/judoboy-red.png') }}" alt="clients logo">
+                    </div>
+                </div><!-- clients-lines__column end -->
+
+                <!-- clients-lines__column start -->
+                <div class="clients-lines__column">
+                    <div class="clients-lines__inner hover-box pos-rel">
+                        <img class="client-logo client-hover-out pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/kizil-jindi.png') }}" alt="clients logo">
+                        <img class="client-logo client-hover-in pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/kizil-jindi-red.png') }}" alt="clients logo">
+                    </div>
+                </div><!-- clients-lines__column end -->
+
+                <!-- clients-lines__column start -->
+                <div class="clients-lines__column">
+                    <div class="clients-lines__inner hover-box pos-rel">
+                        <img class="client-logo client-hover-out pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/meyman.png') }}" alt="clients logo">
+                        <img class="client-logo client-hover-in pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/meyman-red.png') }}" alt="clients logo">
+                    </div>
+                </div><!-- clients-lines__column end -->
+
+                <!-- clients-lines__column start -->
+                <div class="clients-lines__column">
+                    <div class="clients-lines__inner hover-box pos-rel">
+                        <img class="client-logo client-hover-out pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/olchobay.png') }}" alt="clients logo">
+                        <img class="client-logo client-hover-in pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/olchobay-red.png') }}" alt="clients logo">
+                    </div>
+                </div><!-- clients-lines__column end -->
+
+                <!-- clients-lines__column start -->
+                <div class="clients-lines__column">
+                    <div class="clients-lines__inner hover-box pos-rel">
+                        <img class="client-logo client-hover-out pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/tamaktan.png') }}" alt="clients logo">
+                        <img class="client-logo client-hover-in pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/tamaktan-red.png') }}" alt="clients logo">
+                    </div>
+                </div><!-- clients-lines__column end -->
+
+                <!-- clients-lines__column start -->
+                <div class="clients-lines__column">
+                    <div class="clients-lines__inner hover-box pos-rel">
+                        <img class="client-logo client-hover-out pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/chayhana.png') }}" alt="clients logo">
+                        <img class="client-logo client-hover-in pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/chayhana-red.png') }}" alt="clients logo">
+                    </div>
+                </div><!-- clients-lines__column end -->
+
+                <!-- clients-lines__column start -->
+                <div class="clients-lines__column">
+                    <div class="clients-lines__inner hover-box pos-rel">
+                        <img class="client-logo client-hover-out pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/dongolok.png') }}" alt="clients logo">
+                        <img class="client-logo client-hover-in pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/dongolok-red.png') }}" alt="clients logo">
+                    </div>
+                </div><!-- clients-lines__column end -->
+
+                <!-- clients-lines__column start -->
+                <div class="clients-lines__column">
+                    <div class="clients-lines__inner hover-box pos-rel">
+                        <img class="client-logo client-hover-out pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/eptep-septep.png') }}" alt="clients logo">
+                        <img class="client-logo client-hover-in pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/eptep-septep-red.png') }}" alt="clients logo">
+                    </div>
+                </div><!-- clients-lines__column end -->
+
+                <!-- clients-lines__column start -->
+                <div class="clients-lines__column">
+                    <div class="clients-lines__inner hover-box pos-rel">
+                        <img class="client-logo client-hover-out pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/guldoyjan.png') }}" alt="clients logo">
+                        <img class="client-logo client-hover-in pos-abs pos-center-center" src="{{ asset('themes/front/assets/images/clients/guldoyjan-red.png') }}" alt="clients logo">
+                    </div>
+                </div><!-- clients-lines__column end -->
+
+                <!-- clients-lines__column start -->
+                <a href="#" class="clients-lines__column js-pointer-large">
+                    <div class="clients-lines__inner hover-box pos-rel js-scrollanim">
+                        <div class="padding-left-right-20 subhead-xxs text-center pos-abs pos-center-center">
+                            <span class="anim-text-double-fill" data-text="This spot">This spot</span><br>
+                            <span class="anim-text-double-fill tr-delay-02" data-text="awaits">awaits</span><br>
+                            <span class="anim-text-double-fill tr-delay-04" data-text="You">You</span>
+                        </div>
+                        <div class="border-left-anim in-10px red"></div>
+                        <div class="border-top-anim in-10px red"></div>
+                        <div class="border-right-anim in-10px red"></div>
+                        <div class="border-bottom-anim in-10px red"></div>
+                    </div>
+                </a><!-- clients-lines__column end -->
+            </div><!-- clients-lines end -->
+        </div><!-- container end -->
+    </div><!-- pos-rel end -->
+</section><!-- clients end -->
+
+<!-- testimonials start -->
+<section class="pos-rel section-bg-light-1" data-midnight="black">
+    <!-- pos-rel start -->
+    <div class="pos-rel flex-min-height-100vh">
+        <!-- padding-top-bottom-120 start -->
+        <div class="padding-top-bottom-120 width-100perc">
+            <!-- title start -->
+            <h2 class="headline-xxl text-color-black text-center hidden-box">
+                <span class="anim-slide js-scrollanim">Témoignages</span>
+            </h2><!-- title end -->
+
+            <!-- js-2-view-slider start -->
+            <div class="js-2-view-slider padding-top-bottom-90 hidden-box pos-rel">
+                <!-- swiper-wrapper start -->
+                <div class="swiper-wrapper js-slider-scroll-anim">
+                    <!-- swiper-slide start -->
+                    <div class="swiper-slide slide-scale-anim">
+                        <div class="margin-left-right-20 padding-left-right-20 padding-top-bottom-40 content-bg-light-2 border-radius-10px">
+                            <p class="margin-bottom-30 quote quote_bottom body-text-m text-color-black text-center">Pok pok authentic fashion axe, vegan venmo leggings raclette tousled twee tattooed. Banh mi humblebrag hammock tacos fashion axe aesthetic vegan sustainable taiyaki thundercats jean shorts tousled cloud bread waistcoat kogi. Cloud bread cardigan messenger bag raw.</p>
+                            <!-- anim-img-scale start -->
+                            <div class="anim-img-scale testimonials-author border-radius-50perc">
+                                <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/testimonials/woman-wearing-white-and-black-shirt-1388888.jpg') }}" alt="author">
+                            </div><!-- anim-img-scale end -->
+                            <div class="margin-top-20 text-center">
+                                <span class="headline-xxxs text-color-black">Lucille Hatcher</span><br>
+                                <span class="subhead-xxs text-color-888888">Investor</span>
+                            </div>
+                        </div>
+                    </div><!-- swiper-slide end -->
+
+                    <!-- swiper-slide start -->
+                    <div class="swiper-slide slide-scale-anim">
+                        <div class="margin-left-right-20 padding-left-right-20 padding-top-bottom-40 content-bg-light-2 border-radius-10px">
+                            <p class="margin-bottom-30 quote quote_bottom body-text-m text-color-black text-center">Pitchfork vaporware hella, vice next level art party subway tile swag portland. Cliche authentic photo booth, seitan sartorial iPhone brooklyn bicycle rights whatever small batch selvage affogato yuccie adaptogen vinyl. Sartorial franzen tacos cardigan, offal gluten-free pour-over.</p>
+                            <!-- anim-img-scale start -->
+                            <div class="anim-img-scale testimonials-author border-radius-50perc">
+                                <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/testimonials/man-standing-near-building-white-black-turtleneck-shirt-874158.jpg') }}" alt="author">
+                            </div><!-- anim-img-scale end -->
+                            <div class="margin-top-20 text-center">
+                                <span class="headline-xxxs text-color-black">Edward Jordan</span><br>
+                                <span class="subhead-xxs text-color-888888">Cytotechnologist</span>
+                            </div>
+                        </div>
+                    </div><!-- swiper-slide end -->
+
+                    <!-- swiper-slide start -->
+                    <div class="swiper-slide slide-scale-anim">
+                        <div class="margin-left-right-20 padding-left-right-20 padding-top-bottom-40 content-bg-light-2 border-radius-10px">
+                            <p class="margin-bottom-30 quote quote_bottom body-text-m text-color-black text-center">Chambray enamel pin synth shabby chic palo santo. Franzen 90's man bun wayfarers, put a bird on it twee four loko roof party shabby chic kale chips photo booth salvia mixtape lumbersexual. Pug kickstarter hammock unicorn, cardigan ennui celiac roof party. Ramps pitchfork direct.</p>
+                            <!-- anim-img-scale start -->
+                            <div class="anim-img-scale testimonials-author border-radius-50perc">
+                                <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/testimonials/informal-young-woman-listening-to-music-near-grunge-wall-3771823.jpg') }}" alt="author">
+                            </div><!-- anim-img-scale end -->
+                            <div class="margin-top-20 text-center">
+                                <span class="headline-xxxs text-color-black">Mary Ross</span><br>
+                                <span class="subhead-xxs text-color-888888">Fashion designer</span>
+                            </div>
+                        </div>
+                    </div><!-- swiper-slide end -->
+
+                    <!-- swiper-slide start -->
+                    <div class="swiper-slide slide-scale-anim">
+                        <div class="margin-left-right-20 padding-left-right-20 padding-top-bottom-40 content-bg-light-2 border-radius-10px">
+                            <p class="margin-bottom-30 quote quote_bottom body-text-m text-color-black text-center">Copper mug vexillologist +1 prism iPhone fashion axe portland. Hella quinoa woke blog af umami tacos freegan vinyl snackwave microdosing. Fanny pack direct trade XOXO drinking vinegar. Live-edge kinfolk master cleanse brooklyn meh organic man braid. Actually humblebrag sriracha.</p>
+                            <!-- anim-img-scale start -->
+                            <div class="anim-img-scale testimonials-author border-radius-50perc">
+                                <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/testimonials/photography-of-guy-wearing-yellow-hoodie-1183266.jpg') }}" alt="author">
+                            </div><!-- anim-img-scale end -->
+                            <div class="margin-top-20 text-center">
+                                <span class="headline-xxxs text-color-black">Dwight Bell</span><br>
+                                <span class="subhead-xxs text-color-888888">Banquet manager</span>
+                            </div>
+                        </div>
+                    </div><!-- swiper-slide end -->
+
+                    <!-- swiper-slide start -->
+                    <div class="swiper-slide slide-scale-anim">
+                        <div class="margin-left-right-20 padding-left-right-20 padding-top-bottom-40 content-bg-light-2 border-radius-10px">
+                            <p class="margin-bottom-30 quote quote_bottom body-text-m text-color-black text-center">Bushwick tumeric slow-carb photo booth letterpress franzen kombucha tumblr listicle cronut waistcoat mustache. Jean shorts tilde swag cray. Microdosing heirloom wayfarers YOLO, church-key tattooed cred blue bottle viral lyft tacos retro. Bespoke drinking vinegar single-origin.</p>
+                            <!-- anim-img-scale start -->
+                            <div class="anim-img-scale testimonials-author border-radius-50perc">
+                                <img class="anim-img-scale__inner" src="{{ asset('themes/front/assets/images/testimonials/man-standing-on-stairs-1254502.jpg') }}" alt="author">
+                            </div><!-- anim-img-scale end -->
+                            <div class="margin-top-20 text-center">
+                                <span class="headline-xxxs text-color-black">Brian Amos</span><br>
+                                <span class="subhead-xxs text-color-888888">Health educator</span>
+                            </div>
+                        </div>
+                    </div><!-- swiper-slide end -->
+                </div><!-- swiper-wrapper end -->
+
+                <!-- swiper-button-prev start -->
+                <div class="swiper-button-prev-box">
+                    <div class="swiper-button-prev black"></div>
+                </div><!-- swiper-button-prev end -->
+                <!-- swiper-button-next start -->
+                <div class="swiper-button-next-box">
+                    <div class="swiper-button-next black"></div>
+                </div><!-- swiper-button-next end -->
+
+                <!-- swiper-pagination start -->
+                <div class="pagination-box">
+                    <div class="swiper-pagination counter-pagination black"></div>
+                </div><!-- swiper-pagination end -->
+            </div><!-- js-2-view-slider end -->
+        </div><!-- padding-top-bottom-120 end -->
+    </div><!-- pos-rel end -->
+</section><!-- testimonials end -->
+
+{{ include('contact/composants/_form_section.html.twig') }}
+
+{% endblock %}

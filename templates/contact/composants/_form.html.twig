@@ -1,0 +1,74 @@
+<div class="pos-rel flex-min-height-100vh">
+	<!-- container start -->
+	<div class="container small padding-top-bottom-120 form-box">
+		<h4 class="headline-xxxxs text-center">Prenons contact!</h4>
+		<!-- flex-container start -->
+		{{ form_start(form, {'attr': {'name': 'formobrsv', 'id': 'send_form', 'class': 'flex-container padding-top-90'}}) }}
+			<!-- column start -->
+			<div class="four-columns">
+				{{ form_errors(form.nom) }}
+				<div class="column-r-margin-10">
+					{{ form_widget(form.nom) }}
+				</div>
+			</div><!-- column end -->
+			<!-- column start -->
+			<div class="four-columns">
+				{{ form_errors(form.prenom) }}
+				<div class="column-l-r-margin-5">
+					{{ form_widget(form.prenom) }}
+				</div>
+			</div><!-- column end -->
+			<!-- column start -->
+			<div class="four-columns">
+				{{ form_errors(form.email) }}
+				<div class="column-l-margin-10">
+					{{ form_widget(form.email) }}
+				</div>
+			</div><!-- column end -->
+			<!-- column start -->
+			<div class="twelve-columns">
+				{{ form_widget(form.message) }}
+				{{ form_errors(form.message) }}
+			</div><!-- column end -->
+			<!-- column start -->
+			<div class="twelve-columns text-center padding-top-90">
+				<button formnovalidate type="submit" id="send" class="border-btn js-pointer-large">
+					<span class="border-btn__inner">NOUS FAIRE PARVENIR</span>
+					<span class="btn-wait">Patienter...</span>
+					<span class="border-btn__lines-1"></span>
+					<span class="border-btn__lines-2"></span>
+				</button>
+			</div><!-- column end -->
+		{{ form_end(form) }}
+	</div><!-- container end -->
+
+	<!-- alert start -->
+	<div class="js-popup-fade" id="m_sent">
+		<div class="js-popup">
+			<div class="popup-icon">
+				<i class="fas fa-check"></i>
+			</div>
+			<p class="popup-alert headline-xs">
+				Merci!<br>
+				Votre message<br>
+				a bien été reçu!
+			</p>
+			<div class="js-popup-close js-pointer-large">
+				<div class="flip-btn" data-text="Fermer">Fermer</div>
+			</div>
+		</div>
+	</div><!-- alert end -->
+
+	<!-- alert start -->
+	<div class="js-popup-fade" id="m_err">
+		<div class="js-popup">
+			<div class="popup-icon">
+				<i class="fas fa-times"></i>
+			</div>
+			<p class="popup-alert headline-xs">Erreur</p>
+			<div class="js-popup-close js-pointer-large">
+				<div class="flip-btn" data-text="Fermer">Fermer</div>
+			</div>
+		</div>
+	</div><!-- alert end -->
+    </div><!-- pos-rel end -->
