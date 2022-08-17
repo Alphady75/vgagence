@@ -29,7 +29,7 @@ class AccueilController extends AbstractController
 
             $mailer->sendMail($from, $to, $message, $username);
 
-            $this->addFlash('success', 'Votre message a bien été envoyé, nous vous recontacterons dans peut de temps');
+            $this->addFlash('success', 'Votre message a bien été envoyé, nous vous recontacterons dans peut de temps. Merci pour votre colaboration');
             return $this->redirectToRoute('app_accueil');
         }
 
