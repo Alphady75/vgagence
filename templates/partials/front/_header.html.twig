@@ -1,6 +1,6 @@
 <!-- preloader-loading start -->
 <div class="preloader__logoload-box">
-	<img class="preloader__logo" src="{{ asset('themes/front/assets/images/logo/logo.png') }}" alt="logo">
+	<img class="preloader__logo" src="{{ asset('themes/front/assets/images/logo/logo.png') }}" style="width: 100px!important; height: 100px!important;" alt="logo">
 	<div class="preloader__pulse"></div>
 </div><!-- preloader-loading end -->
 
@@ -49,12 +49,14 @@
 	<div class="header-contact js-midnight-color js-headroom">
 		<div class="header-contact__flex">
 			<div class="header-contact__anim">
-				<a href="#" class="header-contact__btn vertical-text center js-pointer-large">
+				<a href="{{ path('app_contact') }}" class="header-contact__btn vertical-text center js-pointer-large">
 					<span class="vertical-text__inner"><i class="far fa-comment-dots"></i> Entrer en contact</span>
 				</a>
 			</div>
 		</div>
-	</div><!-- header-contact end -->
+	</div>
+
+	<!-- header-contact end -->
 
 	<!-- header-social start -->
 	<div class="header-social after-preloader-anim js-midnight-color js-headroom">

@@ -45,37 +45,37 @@
         <ul class="menu-box">
             <!-- nav-btn-box start -->
             <li class="nav-btn-box">
-                <a href="home_creative-agency.html#services" class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large">
-                    <span class="nav-btn__inner" data-text="Creative agency">Nos Services</span>
+                <a href="#services" class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large">
+                    <span class="nav-btn__inner" data-text="Nos Services ">Nos Services</span>
                 </a>
             </li>
             <li class="nav-btn-box">
                 <a href="#travaillons-ensemble" class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large">
-                    <span class="nav-btn__inner" data-text="VicGen Agency vous offre">Travaillons ensemble</span>
+                    <span class="nav-btn__inner" data-text="Travaillons ensemble">Travaillons ensemble</span>
                 </a>
             </li>
             <li class="nav-btn-box">
-                <a href="home_creative-agency.html#comment-travaillons-nous" class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large">
+                <a href="#comment-travaillons-nous" class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large">
                     <span class="nav-btn__inner" data-text="Comment travaillons-nous ?">Comment travaillons-nous ?</span>
                 </a>
             </li>
             <li class="nav-btn-box">
-                <a href="home_creative-agency.html#offre" class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large">
-                    <span class="nav-btn__inner" data-text="VicGen Agency vous offre">VicGen Agency vous offre</span>
+                <a href="#offre" class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large">
+                    <span class="nav-btn__inner" data-text="VicGen  vous offre">VicGen  vous offre</span>
                 </a>
             </li>
             <li class="nav-btn-box">
-                <a href="home_creative-agency.html#experts" class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large">
+                <a href="#experts" class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large">
                     <span class="nav-btn__inner" data-text="Nos experts">Nos experts</span>
                 </a>
             </li>
             <li class="nav-btn-box">
-                <a href="home_creative-agency.html#realisations" class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large">
+                <a href="#realisations" class="nav-btn large dropdown-hidden-btn js-animsition-link js-pointer-large">
                     <span class="nav-btn__inner" data-text="Nos réalisations">Nos réalisations</span>
                 </a>
             </li>
             <li class="nav-btn-box">
-                <a href="{{ path('app_contact') }}" class="nav-btn js-animsition-link js-pointer-large">
+                <a href="{{ path('app_contact') }}" class="nav-btn large js-animsition-link js-pointer-large">
                     <span class="nav-btn__inner" data-text="Contactez-nous">Contactez-nous</span>
                 </a>
             </li>
@@ -100,8 +100,7 @@
                 </div>
                 <div class="nav-fade-anim js-nav-anim margin-top-10">
                     <a href="#" class="subhead-xxs nav-text-color text-hover-to-red js-pointer-small">
-                        PO Box 223158 Oliver Street<br>
-                        East Victoria 2006 UK
+                        {{ appAdresse }}
                     </a>
                 </div>
             </div><!-- nav-address end -->
@@ -120,7 +119,7 @@
         <!-- nav-copyright start -->
         <div class="nav-copyright text-right">
             <p class="copyright-style nav-fade-anim js-nav-anim">
-                &copy; Copyright 2020 UMAYA. Template by <a href="#" class="text-weight-700 js-pointer-small">Jinna Gik</a>
+                &copy; Copyright 2022 {{ appName }}
             </p>
         </div><!-- nav-copyright end -->
     </div><!-- pos-rel end -->

@@ -7,7 +7,8 @@ twig:
         appName: 'Vcgen Médias'
         appNameCapital: 'VICGEN MEDIAS'
         appEmail: 'info@vicgenmedias.com'
-        appPhone: '0467633292'
+        appPhone: '+32467633292'
+        appAdresse: 'Paris 75000, rue Amandine No 8, Bte 6'
         currency: ' €'
         ashtag: '#'
         appConcepteur: "HL Conception"

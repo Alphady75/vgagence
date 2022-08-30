@@ -3164,7 +3164,7 @@ body.js-page-out .pointer {
 }
 
 .nav-btn.large .nav-btn__inner {
-	font-size: 80px;
+	font-size: 25px;
 }
 
 @media only screen and (max-width: 1399px) {
@@ -3178,7 +3178,7 @@ body.js-page-out .pointer {
 	}
 
 	.nav-btn.large .nav-btn__inner {
-		font-size: 67px;
+		font-size: 25px;
 	}
 
 }
@@ -3194,7 +3194,7 @@ body.js-page-out .pointer {
 	}
 
 	.nav-btn.large .nav-btn__inner {
-		font-size: 55px;
+		font-size: 25px;
 	}
 
 }
@@ -3210,7 +3210,7 @@ body.js-page-out .pointer {
 	}
 
 	.nav-btn.large .nav-btn__inner {
-		font-size: 60px;
+		font-size: 25px;
 	}
 
 }
@@ -3226,7 +3226,7 @@ body.js-page-out .pointer {
 	}
 
 	.nav-btn.large .nav-btn__inner {
-		font-size: 48px;
+		font-size: 25px;
 	}
 
 }
@@ -3242,7 +3242,7 @@ body.js-page-out .pointer {
 	}
 
 	.nav-btn.large .nav-btn__inner {
-		font-size: 55px;
+		font-size: 25px;
 	}
 
 }
@@ -3258,7 +3258,7 @@ body.js-page-out .pointer {
 	}
 
 	.nav-btn.large .nav-btn__inner {
-		font-size: 34px;
+		font-size: 25px;
 	}
 
 }
@@ -3274,7 +3274,7 @@ body.js-page-out .pointer {
 	}
 
 	.nav-btn.large .nav-btn__inner {
-		font-size: 45px;
+		font-size: 25px;
 	}
 
 }
@@ -3290,7 +3290,7 @@ body.js-page-out .pointer {
 	}
 
 	.nav-btn.large .nav-btn__inner {
-		font-size: 32px;
+		font-size: 25px;
 	}
 
 }
@@ -3298,7 +3298,7 @@ body.js-page-out .pointer {
 @media only screen and (max-width: 399px) {
 
 	.nav-btn__inner {
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.nav-btn.small .nav-btn__inner {
@@ -3306,7 +3306,7 @@ body.js-page-out .pointer {
 	}
 
 	.nav-btn.large .nav-btn__inner {
-		font-size: 40px;
+		font-size: 25px;
 	}
 
 }
